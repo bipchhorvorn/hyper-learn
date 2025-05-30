@@ -1,0 +1,106 @@
+// Place all the styles related to the decks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.homeDeckItem {
+  padding-bottom: 0.75em;
+  padding-top: 0.75em;
+  width: 68%;
+  margin: 4%;
+  border-top: 2px solid #F3F2EE;
+  border-bottom: 2px solid #F3F2EE;
+  cursor: pointer;
+}
+
+.yellowUseButton {
+  max-height: 38%;
+  background: #F6A90A;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  color: white;
+}
+
+.yellowUseButton:hover {
+  background: #fde7ba;
+}
+
+.deckPanel {
+  display: inline-block;
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deckHeader {
+  width: 62%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.deckHeader > h2 {
+  font-weight: normal;
+  color: #C6C0B8;
+}
+
+.deckPanelDisplaySubject {
+  padding: 3%;
+  width: 62%;
+  background: #F3F2EE;
+  border: 1px solid #C6C0B8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2E4668;
+}
+
+.deckPanelDisplaySubject > h2 {
+  margin: 0.2em;
+}
+
+.deckPanelItem {
+  display: flex;
+  flex-direction: row;
+  min-width: 62%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deckInterface {
+  background: #252422;
+  color: #F3F2EE;
+  width: 24%;
+}
+
+.deckInterfacePanel {
+  padding: 1em;
+  min-height: 86%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.deckInterfaceStats {
+  margin-top: 2em;
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.deckInterfaceDataLine {
+  width: 86%
+}
+
+.studyInterface {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+}

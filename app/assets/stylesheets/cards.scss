@@ -1,0 +1,107 @@
+// Place all the styles related to the cards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.cardForm {
+  margin: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+  width: 100%;
+  background: #F3F2EE;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid grey;
+}
+
+.cardForm > form {
+  width: 100%;
+}
+
+.cardForm > form > input {
+  width: 62%;
+}
+
+.massEditDisplayDeck {
+  width: 38%;
+}
+
+.massEditForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 62%;
+}
+
+.cardSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  min-width: 76%;
+  min-height: 100%;
+  background: #C6C0B8;
+}
+
+.cardViewer {
+  background: #F3F2EE;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 86%;
+  padding: 2%;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  margin: 4%;
+  align-items: center;
+}
+
+.cardBottomSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #2E4668;
+  height: 14%;
+  width: 100%;
+  margin: 2%;
+}
+
+.cardBottomRatings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.cardBottomRatings > div {
+  cursor: pointer;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  max-height: 100%;
+}
+
+.circleStat {
+  width: 76%;
+  position: relative;
+}
+.circleStatNumber {
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
